@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Allow the app to share Health Kit enabled Devices.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Allow the app to update Health Kit enabled Devices.</string>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>Allow the app to records Health Kit enabled Devices.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
