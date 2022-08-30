@@ -16,7 +16,6 @@ class WorkoutTableViewCell: UITableViewCell {
         super.awakeFromNib()
         
         bgView.roundCorners(cornerRadius: bgView.frame.height/10, maskedCorners: [.layerMinXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMinYCorner, .layerMaxXMaxYCorner])
-        // Initialization code
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {

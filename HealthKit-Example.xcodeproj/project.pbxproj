@@ -34,6 +34,14 @@
 		79D63E2D28BCB545004D80E8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79D63E2028BCB545004D80E8 /* Roboto-Bold.ttf */; };
 		79D63E2E28BCB545004D80E8 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79D63E2128BCB545004D80E8 /* Roboto-Thin.ttf */; };
 		79D63E2F28BCB545004D80E8 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79D63E2228BCB545004D80E8 /* Roboto-Black.ttf */; };
+		79DBEC5228BD9C4C00536EE3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBEC5128BD9C4C00536EE3 /* HomeViewController.swift */; };
+		79DBEC5528BDA06200536EE3 /* WalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBEC5428BDA06200536EE3 /* WalkView.swift */; };
+		79DBEC5728BDA11200536EE3 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBEC5628BDA11200536EE3 /* WaterView.swift */; };
+		79DBEC5928BDA12200536EE3 /* CaloriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBEC5828BDA12200536EE3 /* CaloriesView.swift */; };
+		79DBEC5B28BDA12A00536EE3 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBEC5A28BDA12A00536EE3 /* SleepView.swift */; };
+		79DBEC5D28BDA13600536EE3 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBEC5C28BDA13600536EE3 /* HeartView.swift */; };
+		79DBEC6428BDD97200536EE3 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBEC6328BDD97200536EE3 /* WidgetView.swift */; };
+		79DBEC6628BDD99700536EE3 /* PointWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBEC6528BDD99700536EE3 /* PointWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +75,14 @@
 		79D63E2028BCB545004D80E8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		79D63E2128BCB545004D80E8 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		79D63E2228BCB545004D80E8 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		79DBEC5128BD9C4C00536EE3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		79DBEC5428BDA06200536EE3 /* WalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkView.swift; sourceTree = "<group>"; };
+		79DBEC5628BDA11200536EE3 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		79DBEC5828BDA12200536EE3 /* CaloriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesView.swift; sourceTree = "<group>"; };
+		79DBEC5A28BDA12A00536EE3 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		79DBEC5C28BDA13600536EE3 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
+		79DBEC6328BDD97200536EE3 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
+		79DBEC6528BDD99700536EE3 /* PointWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +118,12 @@
 		796726E128BC68E600A008BC /* HealthKit-Example */ = {
 			isa = PBXGroup;
 			children = (
-				79D63E0C28BC88F9004D80E8 /* HealthKit-Example.entitlements */,
-				7967272528BC7EBD00A008BC /* Service */,
-				7967272B28BC825E00A008BC /* Views */,
-				7967271128BC78E200A008BC /* ViewModels */,
-				7967271028BC78DD00A008BC /* Models */,
-				796726FB28BC695A00A008BC /* Controllers */,
 				796726F728BC692700A008BC /* Extensions */,
+				7967272528BC7EBD00A008BC /* Services */,
+				7967272B28BC825E00A008BC /* Views */,
+				7967271028BC78DD00A008BC /* Models */,
+				7967271128BC78E200A008BC /* ViewModels */,
+				796726FB28BC695A00A008BC /* Controllers */,
 				796726F628BC691300A008BC /* Delegate */,
 				796726F928BC693B00A008BC /* Storyboard */,
 				796726F828BC692E00A008BC /* Resources */,
@@ -137,6 +152,7 @@
 		796726F828BC692E00A008BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				79D63E0C28BC88F9004D80E8 /* HealthKit-Example.entitlements */,
 				79D63E1428BCB545004D80E8 /* Fonts */,
 				79D63E1228BC9710004D80E8 /* Images */,
 				796726EB28BC68E700A008BC /* Assets.xcassets */,
@@ -158,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				7967271228BC790100A008BC /* WorkoutViewController.swift */,
+				79DBEC5128BD9C4C00536EE3 /* HomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -187,16 +204,19 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		7967272528BC7EBD00A008BC /* Service */ = {
+		7967272528BC7EBD00A008BC /* Services */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Service;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		7967272B28BC825E00A008BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				79DBEC6328BDD97200536EE3 /* WidgetView.swift */,
+				79DBEC6528BDD99700536EE3 /* PointWidgetView.swift */,
+				79DBEC5328BDA04F00536EE3 /* Home */,
 				796726FF28BC6AA400A008BC /* Cells */,
 			);
 			path = Views;
@@ -243,6 +263,18 @@
 				79D63E2228BCB545004D80E8 /* Roboto-Black.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		79DBEC5328BDA04F00536EE3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				79DBEC5428BDA06200536EE3 /* WalkView.swift */,
+				79DBEC5628BDA11200536EE3 /* WaterView.swift */,
+				79DBEC5828BDA12200536EE3 /* CaloriesView.swift */,
+				79DBEC5A28BDA12A00536EE3 /* SleepView.swift */,
+				79DBEC5C28BDA13600536EE3 /* HeartView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,8 +371,16 @@
 				7967272928BC7FB600A008BC /* Dictionary+Extensions.swift in Sources */,
 				796726E328BC68E600A008BC /* AppDelegate.swift in Sources */,
 				7967270328BC6B0E00A008BC /* UIView+Extensions.swift in Sources */,
+				79DBEC5728BDA11200536EE3 /* WaterView.swift in Sources */,
 				7967271328BC790100A008BC /* WorkoutViewController.swift in Sources */,
+				79DBEC5928BDA12200536EE3 /* CaloriesView.swift in Sources */,
+				79DBEC5B28BDA12A00536EE3 /* SleepView.swift in Sources */,
+				79DBEC5228BD9C4C00536EE3 /* HomeViewController.swift in Sources */,
+				79DBEC6628BDD99700536EE3 /* PointWidgetView.swift in Sources */,
+				79DBEC6428BDD97200536EE3 /* WidgetView.swift in Sources */,
+				79DBEC5D28BDA13600536EE3 /* HeartView.swift in Sources */,
 				7967270628BC6B4100A008BC /* WorkoutTableViewCell.swift in Sources */,
+				79DBEC5528BDA06200536EE3 /* WalkView.swift in Sources */,
 				796726E528BC68E600A008BC /* SceneDelegate.swift in Sources */,
 				7967272228BC7E1400A008BC /* Workout.swift in Sources */,
 			);
@@ -487,7 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "HealthKit-Example/HealthKit-Example.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "HealthKit-Example/Resources/HealthKit-Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V7CV8375;
@@ -517,7 +557,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "HealthKit-Example/HealthKit-Example.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "HealthKit-Example/Resources/HealthKit-Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3V7CV8375;

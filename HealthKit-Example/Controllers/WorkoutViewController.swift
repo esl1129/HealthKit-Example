@@ -35,7 +35,7 @@ extension WorkoutViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header = view as! UITableViewHeaderFooterView
-        header.textLabel?.textColor = UIColor.red
+        header.textLabel?.textColor = UIColor(named: "SubTextColor")
     }
     
     // MARK: ROW
