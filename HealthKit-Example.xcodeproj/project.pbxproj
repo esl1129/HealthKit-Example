@@ -119,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				796726F728BC692700A008BC /* Extensions */,
-				7967272528BC7EBD00A008BC /* Services */,
 				7967272B28BC825E00A008BC /* Views */,
 				7967271028BC78DD00A008BC /* Models */,
 				7967271128BC78E200A008BC /* ViewModels */,
@@ -202,13 +201,6 @@
 				79D63E1028BC95EE004D80E8 /* WorkoutViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		7967272528BC7EBD00A008BC /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		7967272B28BC825E00A008BC /* Views */ = {
@@ -529,7 +521,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "HealthKit-Example/Resources/HealthKit-Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0.1;
 				DEVELOPMENT_TEAM = C3V7CV8375;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HealthKit-Example/Resources/Info.plist";
@@ -543,7 +535,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "woogie.HealthKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -559,7 +551,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "HealthKit-Example/Resources/HealthKit-Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0.1;
 				DEVELOPMENT_TEAM = C3V7CV8375;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HealthKit-Example/Resources/Info.plist";
@@ -573,7 +565,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "woogie.HealthKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
